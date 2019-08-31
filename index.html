@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Avatar Battle</title>
+</head>
+<body onload="inputName()">
+    <header>
+        <h3>Avatar Battle</h3>
+        <h4>The Legend of : </h4><span id="user-input"></span>
+    </header>
+
+    <div class="score">
+        <div class="user">User</div>
+        <div class="comp">Comp</div>
+        <span id="user-score">0</span><span>:</span><span id="comp-score">0</span>
+    </div>
+
+    <div class="elements">
+        <div class="element">
+            <img src="/picture/41lwYiy4NmL._SX425_.jpg" id="earth" alt="" height="150" width="150" onmouseover="audioFunction('earth')" onclick="main()">
+        </div>
+        <div class="element">
+            <img src="/picture/51PgGr2oiNL._SX425_.jpg" id="fire" alt="" height="150" width="150" onmouseover="audioFunction('fire')" onclick="main()">
+        </div>
+        <div class="element">
+            <img src="/picture/images.jpeg" id="water" alt="" height="150" width="150" onmouseover="audioFunction('water')" onclick="main()">
+        </div>
+        <div class="element">
+            <img src="/picture/air-clipart-air-element-19.jpg" id="wind" alt="" height="150" width="150" onmouseover="audioFunction('wind')" onclick="main()">
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>

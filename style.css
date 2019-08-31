@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/picture/Screen_Shot_2018_09_18_at_12.03.02_PM.0.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: white;
+    text-align: center;
+}
+header h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+h4{
+    display: inline-block;
+    font-size: 30px;
+}
+.score{
+    text-align: center;
+    font-size: 30px;
+    border:2px solid white;
+    width: 20%;
+    margin:20px auto;
+    border-radius: 50px;
+    position: relative;
+}
+.score .user{
+    position: absolute;
+    top:-1px;
+    left: 40px;
+}
+.score .comp{
+    position: absolute;
+    top: -1px;
+    left: 170px;
+}
+span{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.result{
+    margin: 10px auto;
+}
+.result p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.elements{
+    text-align: center;
+}
+.element{
+    padding: 15px;
+    display: inline-block;
+    margin: 10px auto;
+}
+.element img:hover{
+    opacity: 0.4;
+    transition: 0.3s;
+}
